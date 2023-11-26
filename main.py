@@ -15,13 +15,13 @@ cards = {
 }
 
 cards_images = {
-    "huina": r"D:\SpotCART\venv\Image\huina.png",
-    "norma": r"D:\SpotCART\venv\Image\norma.png",
-    "good": r"D:\SpotCART\venv\Image\good.png",
-    "verygood": r"D:\SpotCART\venv\Image\verygood.png",
+    "huina": r"D:\SpotCART\Image\huina.png",
+    "norma": r"D:\SpotCART\Image\norma.png",
+    "good": r"D:\SpotCART\Image\good.png",
+    "verygood": r"D:\SpotCART\Image\verygood.png",
 }
 
-DATABASE_PATH = r"D:\SpotCART\venv\BD\bd"
+DATABASE_PATH = r"D:\SpotCART\BD\bd"
 
 LEVEL_COOLDOWN_MAPPING = {
     1: 4 * 60 * 60,  # Level 1: 4 hours
