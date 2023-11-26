@@ -52,7 +52,11 @@ def start(message):
 
         bot.send_message(user_id, "Привет! Добро пожаловать в игру с карточками. Нажмите /play, чтобы начать.")
     else:
-        bot.send_message(user_id, f"С возвращением! Ваш текущий счет: {player_data[1]}. Уровень: {player_data[3]}")
+        _, _, points, _, level, *_ = player_data
+        bot.send_message(user_id, f"С возвращением! Ваш текущий счет: {points}. Уровень: {level}")
+
+
+
 
 @bot.message_handler(commands=['bonus'])
 def bonus(message):
